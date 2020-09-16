@@ -126,3 +126,4 @@ getPhoneDetails(phone);
 // 1 - bionic
 // 2 - neural engine
 // 3 - embedded motion processor
+
