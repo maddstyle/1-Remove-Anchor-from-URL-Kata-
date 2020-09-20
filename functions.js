@@ -127,3 +127,20 @@ getPhoneDetails(phone);
 // 2 - neural engine
 // 3 - embedded motion processor
 
+
+//calculate sum 
+if(a > 3) {
+   
+  sum = 100+300;
+}
+let total = 0;
+function calcSum(num1, num2) {
+ let sum = num1 + num2;
+
+ return function (num3) {
+   let result = sum - num3;
+   return result;
+ };
+}
+
+let tempSum = calcSum(1, 2);
