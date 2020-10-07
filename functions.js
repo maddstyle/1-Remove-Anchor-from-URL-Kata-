@@ -144,3 +144,13 @@ function calcSum(num1, num2) {
 }
 
 let tempSum = calcSum(1, 2);
+
+
+//calculate discount
+
+function discount(price, percent = 20){
+  price = price - (price * percent/100);
+  return price.toFixed(2);
+}
+
+discount(100);
